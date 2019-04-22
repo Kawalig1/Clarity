@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="main" verbose="10">
+  <test name="REG_PH1_001_Adminsitefilterwithvalidandinvalidfiltercriteria">
+    <classes>
+      <class name= "com.stta.main.REG_PH1_001_Adminsitefilterwithvalidandinvalidfiltercriteria" />
+    </classes>
+  </test>
+    <test name="REG_PH1_001_Adminsitefilterwithvalidandinvalidfiltercriteria">
+    <classes>
+      <class name= "com.stta.main.REG_PH1_001_Adminsitefilterwithvalidandinvalidfiltercriteria" />
+    </classes>
+  </test>
+</suite>

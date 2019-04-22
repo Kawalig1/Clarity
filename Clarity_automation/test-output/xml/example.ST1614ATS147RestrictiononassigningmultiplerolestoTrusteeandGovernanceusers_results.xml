@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="example.ST1614ATS147RestrictiononassigningmultiplerolestoTrusteeandGovernanceusers"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="7.581">
+  <properties />
+  
+  
+      <testcase name="testST1614ATS147RestrictiononassigningmultiplerolestoTrusteeandGovernanceusers" time="7.581" />
+  
+</testsuite>

@@ -1,0 +1,22 @@
+package clarity;
+
+import java.util.Enumeration;
+import java.util.Hashtable;
+
+public class Testing {
+	
+	public static void main(String arg[])
+	{
+		Enumeration test;
+		Hashtable<Integer, String> HT = new Hashtable<Integer, String>();
+		HT.put(1, "Monday");
+		HT.put(2, "Tuesday");
+		HT.put(3, "Wednesday");
+		
+		test = HT.elements();
+		while(test.hasMoreElements())
+		{
+			System.out.println(test.nextElement());
+		}
+	}
+}

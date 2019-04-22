@@ -1,0 +1,108 @@
+
+
+#Web Application URL
+siteURL = https://test.salesforce.com/
+
+
+#Standard User login credentials
+dmusername = dmstandard_user@jltgroup.com.preprod
+dmpassword = Jan_2018
+//dmusername = dmstandard_user@jltgroup.com.qasandbox
+//dmpassword = Jan_2018
+
+#Forecasting User Credentails
+#spldmusername = std_user@jltgroup.com.preprod
+#spldmpassword = Jan_2018
+
+//spldmusername = forecast_user@jltgroup.com.qasandbox
+//spldmpassword = Dec_2017
+
+ebusername=eb_user@jltgroup.com.preprod
+ebpassword=Jan_2018
+//ebusername=eb_user@jltgroup.com.qasandbox
+//ebpassword=Dec_2017
+
+//aska EB Contract Management
+EBContractsUsername: ebcontracts@jltgroup.com.preprod 
+EBContractsPassword: Jan_2018
+
+//EBContractsUsername: ebcontracts@jltgroup.com.qasandbox
+//EBContractsPassword: Dec_2017
+
+
+//aska
+
+EBGlobalUsername= ebglobal_user@jltgroup.com.preprod
+EBGlobalPassword = Jan_2018 
+
+//EBGlobalUsername= ebglobal_user@jltgroup.com.qasandbox
+//EBGlobalPassword = Dec_2017                                                                                               
+
+username=standard_user@jltgroup.com.preprod
+password=Jan_2018
+//username=standard_user@jltgroup.com.qasandbox
+//password=Jan_2018
+
+
+#Australia User login credentials
+aususername = aus_user@jltgroup.com.preprod
+auspassword = Jan_2018
+//aususername=aus_user@jltgroup.com.qasandbox
+//auspassword=Nov_2017
+
+#RE User login credentials
+reusername = restd_user@jltgroup.com.preprod
+repassword = Apr_2018
+//reusername=restd_user@jltgroup.com.qasandbox
+//repassword=Nov_2017
+
+
+#Group Risk User login credentials
+grpriskusername = group_risk@jltgroup.com.preprod
+grpriskpassword = Jan_2018
+//grpriskusername=group_risk@jltgroup.com.qasandbox
+//grpriskpassword=Nov_2017
+
+#Admin User login credentials
+adminusername = deepali.kadu@jltgroup.com.preprod
+adminpassword = Jan_2018
+//adminusername=deepali.kadu@jltgroup.com.qasandbox
+//adminpassword=Dec_2017
+
+#Local Admin User Login credentails
+localadminusername = local_admin@jltgroup.com.preprod
+localadminpassword = Jan_2018
+
+//localadminusername = local_admin@jltgroup.com.qasandbox
+//localadminpassword = Nov_2017
+
+#Local Operational Approver User login credentials. Also used as Forecasting User
+localopsusername= local_opr@jltgroup.com.preprod
+localopspassword= Jan_2018
+//localopsusername=local_opr@jltgroup.com.qasandbox
+//localopspassword=Nov_2017
+
+#Local Risk User login credentials
+localriskusername= local_risk@jltgroup.com.preprod
+localriskpassword= Jan_2018
+//localriskusername=local_risk@jltgroup.com.qasandbox
+//localriskpassword=Nov_2017
+
+#Japan User login credentials
+japanusername=japan_user@jltgroup.com.preprod
+japanpassword=Jan_2018
+//japanusername=japan_user@jltgroup.com.qasandbox
+//japanpassword=Nov_2017
+
+#Data Steward login credentials
+datastewardusername=data_steward@jltgroup.com.preprod
+datastewardpassword=Jan_2018
+//datastewardusername=data_steward@jltgroup.com.qasandbox
+//datastewardpassword=Nov_2017
+
+#set Mozilla or Chrome or IE
+testBrowser = IE
+
+#Set Screenshot flags "Yes" or "No"
+screenShotOnFail = No
+screenShotOnPass = No

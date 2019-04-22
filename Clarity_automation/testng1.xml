@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+          
+		  <class name="Clarity1_3.ATS020VerifyClaritydisplayserrormessagewhenmemberentersinvalidpassword"/>
+		  <class name="Clarity1_3.ATS021VerifyClaritydisplaysappropriatedetailsinthecorrespondingswitchstepsbasedonContributiontypeselected"/>
+		  <class name="Clarity1_3.ATS021VerifywhetherClaritylogstheuseroutofthesystemwhenuserenterinvalidpasswordformaximumattempts"/>
+		  <class name="Clarity1_3.ATS0221Verificationandvalidationoffieldsinstep2ofswitchtransaction"/>
+		  <class name="Clarity1_3.ATS022Verificationandvalidationoffieldsinstep1ofswitchtransaction"/>
+		  <class name="Clarity1_3.ATS025VerificationandvalidationinStep3ofswitchtransaction"/>
+		  <class name="Clarity1_3.ATS0261VerificationandvalidationinconfirmationpageofSwitchtransaction"/>
+		  <class name="Clarity1_3.ATS026VerificationandvalidationinStep4ofswitchtransaction"/>
+		  
+		  <class name="Clarity1_3.ATS028MemberwithNonAVCfundsonly"/>
+		  <class name="Clarity1_3.ATS029MemberwithbothAVCandNonAVCFunds"/>
+		  <class name="Clarity1_3.ATS064Verifymemberabletocanceltheswitchbeforeconfirmationandsystemreturnsthemembertostep1ofswitch"/>
+		  <class name="Clarity1_3.ATS065Verifymembersitefundsvaluesandfundsbasedontheconfigurationisadminsite"/>
+		  <class name="Clarity1_3.SUPWRS91225ATS001Verifyinadminsiteforthereportsectionandalsoatgovernacesiteforonlytheassingedreports"/>
+		  <class name="Clarity1_3.SUPWRS91225ATS002Verifyinadminsiteforthereportsectionandalsoattrusteesiteforonlytheassingedreports"/>
+		  <class name="Clarity1_3.SUPWRS91415ATS001VerifyErrorlogisdisplayedinadminsite"/>
+		  <class name="Clarity1_3.SUPWRS91628ATS001VerifySuperadminabletocreatesupportrolewithvalidinput"/>
+		  <class name="Clarity1_3.SUPWRS91628ATS002Verifysupportroledoesnothavecustomtemplatefield"/>
+		  <class name="Clarity1_3.SUPWRS91628ATS002Verifysupportroledoesnothaveselecttemplatefield"/>
+		  <class name="Clarity1_3.SUPWRS91628ATS003Verifysuperadminabletogenerateloginforsupportrole"/>
+		  <class name="Clarity1_3.SUPWRS91628ATS004Verifyadminusernotabletogenerateloginforsupportrole"/>
+		  <class name="Clarity1_3.SUPWRS91628ATS005Verifysuperadminuserabletofilterwithsupportrole"/>
+		  <class name="Clarity1_3.SUPWRS91628ATS006Verifysuperadminabletochangethestatusofsupportuser"/>
+		  <class name="Clarity1_3.SUPWRS91628ATS007Verifysuperadminabletoresetpasswordofsupportuserandresetuserisdisplayedinlogingenerationtab"/>
+		  <class name="Clarity1_3.SUPWRS91628ATS008VerifysupportuserabletologintoAdminsite"/>
+		  <class name="Clarity1_3.SUPWRS91628ATS009Verifysupportusernotablelogintomembersite"/>
+		  <class name="Clarity1_3.SUPWRS91628ATS010Verifysupportuserabletochangehispasswordandloginwithnewpassword"/>
+		  <class name="Clarity1_3.SUPWRS91628ATS011Verifysupportusernotabletochangehispasswordwithinvaliddetails"/>
+		  <class name="Clarity1_3.SUPWRS91628ATS012Verifysupportuserabletofilteronlymemberandemployerrole"/>
+		  <class name="Clarity1_3.SUPWRS91628ATS014Verifysupportuserabletochangethestatusofmemberandemployerrole"/>
+		  <class name="Clarity1_3.SUPWRS91628ATS015Verifyuserwithmemberrolenotabletomergewithsupportrole"/>
+		  <class name="Clarity1_3.SUPWRS91628ATS016Verifyuserwithempolyerrolenotabletomergewithsupportrole"/>
+		  <class name="Clarity1_3.SUPWRS91628ATS017VerifyuserwithGovernancerolenotabletomergewithsupportrole"/>
+		  <class name="Clarity1_3.SUPWRS91628ATS019VerifySupportusernameamendby1whengeneratingLoginwithsameuserdetails"/>
+		  <class name="Clarity1_3.SUPWRS91628ATS020Verifysupportuserabletoperformblacklistoperationforempolyerrole"/>
+		  <class name="Clarity1_3.SUPWRS91628ATS021Verifysupportuserabletogenerateloginforamember"/>
+		  <class name="Clarity1_3.SUPWRS91648ATS001Verifythatthememberisloggedoutifhelockshisaccountduringchangepassword"/>
+		  <class name="Clarity1_3.SUPWRS91648ATS002Verifythatthememberisloggedoutifhelockshisaccountduringchangememorableword"/>
+		  <class name="Clarity1_3.SUPWRS91648ATS004Verifythatthegovernanceuserisloggedoutifhelockshisaccountduringchangepassword"/>
+		  <class name="Clarity1_3.SUPWRS91648ATS005Verifythatthegovernanceuserisloggedoutifhelockshisaccountduringchangememorableword"/>
+		  <class name="Clarity1_3.SUPWRS91665ATS001Verifythattheadminisloggedoutifhelockshisaccountduringchangepassword"/>
+		  <class name="Clarity1_3.SUPWRS91665ATS001Verifythattheadminisloggedoutifhelockshisaccountduringchangepassword"/>
+		  <class name="Clarity1_3.SUPWRS91665ATS002Verifythattheadminisloggedoutifhelockshisaccountduringchangememorableword"/>
+		  <class name="Clarity1_3.SUPWRS91665ATS003Verifythattheadminisloggedoutifhelockshisaccountduringchangerepositorykey"/>
+		  <class name="Clarity1_3.SUPWRS91665ATS004Verifythattheadminisloggedoutifhelockshisaccountduringchangezippassword"/>
+		  <class name="Clarity1_3.SUPWRS91665ATS005Verifythatthesecretaryisloggedoutifhelockshisaccountduringchangepassword"/>
+		  <class name="Clarity1_3.SUPWRS91665ATS006Verifythatthesecretaryisloggedoutifhelockshisaccountduringchangerepositorykey"/>
+		  <class name="Clarity1_3.SUPWRS91665ATS007Verifythatthesecretaryisloggedoutifhelockshisaccountduringchangezippassword"/>
+		  <class name="Clarity1_3.SUPWRS91665ATS008Verifythatthesecretaryisloggedoutifhelockshisaccountduringchangememorableword"/>
+		  <class name="Clarity1_3.SUPWRS91665ATS009Verifythatthesupportuserisloggedoutifhelockshisaccountduringchangepassword"/>
+		  <class name="Clarity1_3.SUPWRS91665ATS010Verifythatthesupportuserisloggedoutifhelockshisaccountduringchangememorableword"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+

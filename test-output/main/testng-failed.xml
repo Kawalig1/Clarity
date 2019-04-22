@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="10" name="Failed suite [main]">
+  <test name="com.stta.main(failed)">
+    <classes>
+      <class name="com.stta.main.REG_PH1_001_Adminsitefilterwithvalidandinvalidfiltercriteria">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testREGPH1001Adminsitefilterwithvalidandinvalidfiltercriteria"/>
+        </methods>
+      </class> <!-- com.stta.main.REG_PH1_001_Adminsitefilterwithvalidandinvalidfiltercriteria -->
+    </classes>
+  </test> <!-- com.stta.main(failed) -->
+</suite> <!-- Failed suite [main] -->

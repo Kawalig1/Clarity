@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Clarity1_2.ATS012aSetupCalculation"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="10.531">
+  <properties />
+  
+  
+      <testcase name="test0109ATS012aSetupCalculation" time="10.531" />
+  
+</testsuite>

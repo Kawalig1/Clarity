@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="example.ST1614ATS148UpdateroleforTrusteeandGovernance"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="13.418">
+  <properties />
+  
+  
+      <testcase name="testST1614ATS148UpdateroleforTrusteeandGovernance" time="13.418" />
+  
+</testsuite>

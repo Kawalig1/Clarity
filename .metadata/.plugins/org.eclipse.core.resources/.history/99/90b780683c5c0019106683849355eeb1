@@ -1,0 +1,26 @@
+package clarity;
+
+public class Testing {
+	
+	private int test = 10;
+
+	public static void main(String[] args) 
+	{
+		Testing ts = new Testing();
+		ts.setTest(25);
+		ts.getTest();
+		System.out.println(ts.getTest());
+
+	}
+
+	public int getTest() 
+	{
+		return test;
+	}
+
+	public void setTest(int test) 
+	{
+		this.test = test;
+	}
+
+}

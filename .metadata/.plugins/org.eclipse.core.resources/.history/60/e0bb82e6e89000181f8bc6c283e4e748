@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<listeners> 
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+   </listeners>
+
+  <test name="Test">
+    <classes>
+          <class name="Clarity1_3.ATS005VerifyMyPaymentDetailspageformemberwhosehasonlychequedetails"/>
+          <class name="Clarity1_3.ATS001Memberwithnotaxdata"/>
+		  <class name="Clarity1_3.ATS003MemberwithtaxdataotherthanPrevioustaxyear"/>
+		  <class name="Clarity1_3.ATS004MemberwithtaxdatainthePrevioustaxyears"/>
+		  <class name="Clarity1_3.ATS005Memberwithnegativevalueinthetaxdedutedcolumn"/>
+		  <class name="Clarity1_3.ATS006Memberwithtaxdatainthecurrenttaxyear"/>
+		  <class name="Clarity1_3.ATS007Memberwithmorethantwotaxdatainthesameyear"/>
+		  <class name="Clarity1_3.ATS001VerifyAboutmepageforinpayuser"/>
+		  <class name="Clarity1_3.ATS002VerifyAboutmymembershipforinpayuser"/>
+		  <class name="Clarity1_3.ATS003VerifyMyPaymentDetailspageformemberwhosehasonlybankdetails"/>
+		  <class name="Clarity1_3.ATS004VerifyMyPaymentDetailspageformemberwhosehasonlybanksocietydetails"/>
+		  <class name="Clarity1_3.ATS006VerifyPensionerabletoviewtheirHomepage"/>
+		  <class name="Clarity1_3.ATS007Verifyhomeaddressisdisplayedwhenpaymentaddressisnotavailableforthemember"/>
+		  <class name="Clarity1_3.ATS007Memberwithmorethantwotaxdatainthesameyear"/>
+		  <class name="Clarity1_3.ATS008VerifyClaritydisplaysthecurrentaddressofthememberinAboutmepage"/>
+		  <class name="Clarity1_3.ATS001EmployerabletoimpersonateaPensionerwithloginandstatusINPAY"/>
+		  <class name="Clarity1_3.ATS002EmployerabletoimpersonateaPensionerwithloginandstatusPENSUS"/>
+		  <class name="Clarity1_3.ATS004EmployerabletoimpersonateaPensionerwithoutloginandstatusPENSUS"/>
+		  <class name="Clarity1_3.ATS005EmployerabletoimpersonateaPensionerwithoutloginandstatusPENUN"/>
+		  <class name="Clarity1_3.ATS007EmployerabletoimpersonateaPensionerwithloginandstatusPENUN"/>
+		  <class name="Clarity1_3.ATS008EmployerabletoimpersonateaPensionerwithloginandstatusCLOSED"/>
+		  <class name="Clarity1_3.ATS001Pensionershouldbeabletochangehispassword"/>
+		  <class name="Clarity1_3.ATS002Pensionershouldnotbeabletochangehispasswordwithinvaliddetails"/>
+		  <class name="Clarity1_3.test0208ATS003Pensionershouldbeabletochangehismemorableword"/>
+		  <class name="Clarity1_3.ATS004Pensionershouldnotbeabletochangehismemorableword"/>
+		  <class name="Clarity1_3.ATS006Pensionershouldnotbeabletochangehisquestionandanswerwithinvalidpassword"/>
+		  <class name="Clarity1_3.ATS007Pensionersareabletoresettheirpasswordsiftheyhaveforgottenit"/>
+		  <class name="Clarity1_3.ATS008Pensionersarenotabletoresettheirpasswordswithinvaliddetails"/>
+		  <class name="Clarity1_3.ATS002Verifymemberisabletoviewandfiltertherequestbydateandtransactiontype"/>
+		  <class name="Clarity1_3.ATS003Verifymemberrequestforcontactadminisupdatedintransactionhistorypage"/>
+		  <class name="Clarity1_3.ATS004Verifymemberrequestforswitchisupdatedintransactionhistorypage"/>
+		  <class name="Clarity1_3.ATS005Verifymemberrequestforcontributionallocationisupdatedintransactionhistorypage"/>
+		  <class name="Clarity1_3.ATS001VerifyTopmenusandleftlinksarerelevantforPensioner"/>
+		  <class name="Clarity1_3.ATS002VerifyPensionerabletoaccessonlyrelevantpages"/>
+		  <class name="Clarity1_3.ATS006VerifyActivePreservedmembernotabletoaccessPensionerpages"/>
+		  <class name="Clarity1_3.ATS007VerifyAdminuserabletologingenerateloginforpensionerwithstatusINPAY"/>
+		  <class name="Clarity1_3.ATS008VerifyAdminuserabletologingenerateloginforpensionerwithstatusPENSUSP"/>
+		  <class name="Clarity1_3.ATS009VerifyadminuserabletoresetpasswordforpensionerwithINPAYstatus"/>
+		  <class name="Clarity1_3.ATS010VerifyadminuserabletoresetpasswordforpensionerwithPENSUSPstatus"/>
+		  <class name="Clarity1_3.ATS011VerifyadminuserabletochangethestatusofinactivePensionertoactiveandlocked"/>
+		  <class name="Clarity1_3.ATS012VerifyadminuserabletochangethestatusofactivePensioneraccounttoinactiveandlocked"/>
+		  <class name="Clarity1_3.ATS013VerifyadminuserabletochangethestatusoflockedPensioneraccounttoactiveandinactive"/>
+		  <class name="Clarity1_3.ATS015VerifyAdminusernotabletologingenerateloginforpensionerwithstatusCLOSED"/>
+		  <class name="Clarity1_3.ATS016VerifyadminuserabletosetcorrespondenceaddressforPensioner"/>
+		  <class name="Clarity1_3.ATS017VerifyPensionerisabletomergehisaccountwithActiveuser"/>
+		  <class name="Clarity1_3.ATS018VerifyPensionerisabletomergehisaccountwithPreservedUser"/>
+		  <class name="Clarity1_3.ATS019VerifyPensionerisabletomergehisaccountwithanotherpensioner"/>
+		  <class name="Clarity1_3.ATS020VerifyPensionernotabletoaccesspagesofotherrolesandgotredirectedtopensionerHomepage"/>
+		  <class name="Clarity1_3.ATS001VerifylastpensionpaymentdetailsaredisplayedinthePensionerHomepage"/>
+		  <class name="Clarity1_3.ATS002Verifylastpensionpaymentdetailsnotdisplayedwhenthememberdoesnothavelastpensionpaymentdetails"/>
+		  <class name="Clarity1_3.ATS001ValidationofDatefieldsinPayHistory"/>
+		  <class name="Clarity1_3.ATS002Verifyappropriateerrormessageisdisplayedwhennodataisavailableforfiltercriteria"/>
+		  <class name="Clarity1_3.ATS003aVerifypayhistorydatabasedonfiltercriteria"/>
+		  <class name="Clarity1_3.ATS004Verifyapplicationdisplayspaydataonlyforlastfiveyears"/>
+		  <class name="Clarity1_3.ATS001VerifyClaritydisplaysthetextinthefirstpagecorrectly"/>
+		  <class name="Clarity1_3.ATS002VerifyClaritydisplayswarningmessagewhenmemberhaslifestyling"/>
+		  <class name="Clarity1_3.ATS003Verifymembersareabletonavigatebackandforthfromallthesteps"/>
+		  <class name="Clarity1_3.ATS004Verifymembersareabletocanceltheallocationanytimebeforeconfirmationandittakestothefirstpage"/>
+		  <class name="Clarity1_3.ATS005Verifyifthememberisabletoseetheguidancetextontheremainingcontributionscorrectly"/>
+		  <class name="Clarity1_3.ATS006Verifymemberisabletoseethesummarypagewiththefundsandpercentagesgivenbefore"/>
+		  <class name="Clarity1_3.ATS007Verifymembergetsanerrormessageforinvalidpasswordinthesummarypage"/>
+		  <class name="Clarity1_3.ATS008Verifymemberisabletoseethethankyoupageafterenteringavalidpassword"/>
+		  <class name="Clarity1_3.ATS011VerifyClarityswitchedoffthelifestylingforbothAVCandNonAVCafterrequestingtheallocation"/>
+		  <class name="Clarity1_3.ATS012VerifyClaritydisplaysthecorrecttextmessageinstep1Step2"/>
+		  <class name="Clarity1_3.ATS013VerifyClaritydisplaysthecorrecttextmessageinstep3"/>
+		  <class name="Clarity1_3.ATS014Verifyifthefundsselectedinstep2areretainedwhenthememberclicksbackfromStep3"/>
+		  <class name="Clarity1_3.ATS015Verifyifthepercentagevaluesenteredinstep3areretainedwhenclickingbackfromstep3andproceedingagain"/>
+		  <class name="Clarity1_3.ATS016VerifyClaritydisplaysthecorrecttextmessageinsummarypage"/>
+		  <class name="Clarity1_3.ATS017VerifyClaritydisplaysanerrormessageifthememberentersaninvalideMailid"/>
+		  <class name="Clarity1_3.ATS018VerifyClaritydisplayanerrormessageifmemberentersaninvalidtelephonenumber"/>
+		  <class name="Clarity1_3.ATS020Verifyifthememberistakentofirstpageonclickingcancelinthesummarypage"/>
+		  <class name="Clarity1_3.ATS021VerifyClaritydisplaysthelifestylewarningmessageinfirstpage"/>
+		  <class name="Clarity1_3.test1501ATS022VerifyclaritydisplaystheonlytheexistingAVCcontributionallocationsforthemember"/>
+		  <class name="Clarity1_3.ATS025VerifyclaritydisplaysonlytheexistingNonAVCallocationsforthemember"/>
+		  <class name="Clarity1_3.ATS028Verifyiftransactiontableisupdatedcorrectly"/>
+		  <class name="Clarity1_3.ATS029VerifyClaritydisplayslistoffundsandtheirexistingallocationvaluescorrectly"/>
+		  <class name="Clarity1_3.ATS030VerifyClaritydisplayslistoffundsinopenstatustothemembertomovethemoneyintofundsbasedonbenefitlevel"/>
+		  <class name="Clarity1_3.ATS031VerifyClaritydisplayserrormessagewhentotalcontributionislessthan100percentage"/>
+		  <class name="Clarity1_3.ATS032VerifyClaritydisplayserrormessagewhentotalcontributionisgreaterthan100percentage"/>
+		  <class name="Clarity1_3.ATS033VerifyClaritydisplayserrormessagewhennofundisselected"/>
+		  <class name="Clarity1_3.test1501ATS034VerifyClaritydisplaysonlytheNonAVCallocationsforthemember"/>
+		  <class name="Clarity1_3.ATS035VerifyClaritydisplaysonlytheNonAVCallocationsinthesummarypage"/>
+		  <class name="Clarity1_3."/>
+		  <class name="Clarity1_3."/>
+		  <class name="Clarity1_3."/>
+		  <class name="Clarity1_3."/>
+		  <class name="Clarity1_3."/>
+		  <class name="Clarity1_3."/>
+		  <class name="Clarity1_3."/>
+		  <class name="Clarity1_3."/>
+		  
+		  
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

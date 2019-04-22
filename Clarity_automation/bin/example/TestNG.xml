@@ -1,0 +1,198 @@
+  
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="example" verbose="1">
+  <test name="ATS_001_Activemembershits">
+    <classes>
+      <class name= "example.ATS_001_Activemembershits" />
+    </classes>
+  </test>
+  
+    <test name="ATS002Perservedmemberhit">
+    <classes>
+      <class name= "example.ATS002Perservedmemberhit" />
+    </classes>
+  </test>
+  
+  
+  <test name="Scenario1_ST_16_05_ATS001_AtrustteeAddsanentry">
+    <classes>
+      <class name= "example.Scenario1_ST_16_05_ATS001_AtrustteeAddsanentry" />
+    </classes>
+  </test>
+  
+    <test name="Scenario1ST1605ATS002ATrusteeAddmultipleentries">
+    <classes>
+      <class name= "example.Scenario1ST1605ATS002ATrusteeAddmultipleentries" />
+    </classes>
+  </test>
+  
+  
+  
+  
+  <test name="Scenario1ST1605ATS004AtrusteeAddaprivateevent">
+    <classes>
+      <class name= "example.Scenario1ST1605ATS004AtrusteeAddaprivateevent" />
+    </classes>
+  </test>
+  
+    <test name="Scenario1ST1605ATS005Goveranceuseraddsanentry">
+    <classes>
+      <class name= "example.Scenario1ST1605ATS005Goveranceuseraddsanentry" />
+    </classes>
+  </test>
+  
+  
+  <test name="Scenario1ST1605ATS007Addmorethanoneentriesonaselecteddate">
+    <classes>
+      <class name= "example.Scenario1ST1605ATS007Addmorethanoneentriesonaselecteddate" />
+    </classes>
+  </test>
+  
+    <test name="Scenario2ST1605ATS001Editentriesenteredbyothertrusteeswithintheowntrust">
+    <classes>
+      <class name= "example.Scenario2ST1605ATS001Editentriesenteredbyothertrusteeswithintheowntrust" />
+    </classes>
+  </test>
+  
+  
+  <test name="Scenario2ST1605ATS003EditinganEventTtee ">
+    <classes>
+      <class name= "example.Scenario2ST1605ATS003EditinganEventTtee" />
+    </classes>
+  </test>
+
+<test name="Scenario2ST1605ATS004EditownentryChangedateofevent">
+    <classes>
+      <class name= "example.Scenario2ST1605ATS004EditownentryChangedateofevent" />
+    </classes>
+  </test>
+  
+  <test name="Scenario2ST1605ATS005EditAPrivateentryenteredbyTrustee">
+    <classes>
+      <class name= "example.Scenario2ST1605ATS005EditAPrivateentryenteredbyTrustee" />
+    </classes>
+  </test>
+
+<test name="Scenario2ST1605ATS006EditaPrivateentryUncheckPrivatecheckbox">
+    <classes>
+      <class name= "example.Scenario2ST1605ATS006EditaPrivateentryUncheckPrivatecheckbox" />
+    </classes>
+  </test>
+
+
+<test name="Scenario2ST1605ATS010EditingEventsGovernance ">
+    <classes>
+      <class name= "example.Scenario2ST1605ATS010EditingEventsGovernance" />
+    </classes>
+  </test>
+
+<test name="Scenario2ST1605ATS012Cancelchangesmade ">
+    <classes>
+      <class name= "example.Scenario2ST1605ATS012Cancelchangesmade" />
+    </classes>
+  </test>
+
+
+
+<test name="Scenario2ST1605ATS013EditPublicentryastrusteeCheckPrivatecheckbox">
+    <classes>
+      <class name= "example.Scenario2ST1605ATS013EditPublicentryastrusteeCheckPrivatecheckbox" />
+    </classes>
+  </test>
+
+<test name="Scenario3ST1605ATS002DeleteentriesenteredbyotherusersTrusteeWithinthesamelegaltrustrole">
+    <classes>
+      <class name= "example.Scenario3ST1605ATS002DeleteentriesenteredbyotherusersTrusteeWithinthesamelegaltrustrole" />
+    </classes>
+  </test>
+  
+  
+  
+  <test name="Scenario3ST1605ATS003DeleteownentryTrustee">
+    <classes>
+      <class name= "example.Scenario3ST1605ATS003DeleteownentryTrustee" />
+    </classes>
+  </test>
+
+<test name="Scenario3ST1605ATS004Trusteedeletesaprivateentry">
+    <classes>
+      <class name= "example.Scenario3ST1605ATS004Trusteedeletesaprivateentry" />
+    </classes>
+  </test>
+
+
+<test name="Scenario3ST1605ATS006TrusteeDeletesanentrymadebyagoveranceuser">
+    <classes>
+      <class name= "example.Scenario3ST1605ATS006TrusteeDeletesanentrymadebyagoveranceuser" />
+    </classes>
+  </test>
+
+<test name="Scenario5ST1605ATS001EnteraneventinthepastLeavedescriptionblankEnddateislessthanstartdate">
+    <classes>
+      <class name= "example.Scenario5ST1605ATS001EnteraneventinthepastLeavedescriptionblankEnddateislessthanstartdate" />
+    </classes>
+  </test>
+  
+  
+  <test name="ST1610ATS001Changetherepositrykeyalreadyset">
+    <classes>
+      <class name= "example.ST1610ATS001Changetherepositrykeyalreadyset" />
+    </classes>
+  </test>
+   
+    <test name="ST1610ATS002Logindetailscheck">
+    <classes>
+      <class name= "example.ST1610ATS002Logindetailscheck" />
+    </classes>
+  </test>
+  
+  
+  <test name="ST1610ATS003Repositrykeynotset">
+    <classes>
+      <class name= "example.ST1610ATS003Repositrykeynotsetk" />
+    </classes>
+  </test>
+  
+  
+  <test name="ST1614ATS100Createtrustfromadminsite">
+    <classes>
+      <class name= "example.ST1614ATS100Createtrustfromadminsite" />
+    </classes>
+  </test>
+  
+  
+  
+  
+  <test name="ST1614ATS101CreateTrustwithoutmandatorydetail">
+    <classes>
+      <class name= "example.ST1614ATS101CreateTrustwithoutmandatorydetail" />
+    </classes>
+  </test>
+  
+  
+  
+  <test name="ST1614ATS101CreateTrustwithoutmandatorydetails">
+    <classes>
+      <class name= "example.ST1614ATS101CreateTrustwithoutmandatorydetails" />
+    </classes>
+  </test>
+  
+  
+    <test name="ST1614ATS102Duplicatetrustcreation">
+    <classes>
+      <class name= "example.ST1614ATS102Duplicatetrustcreation" />
+    </classes>
+  </test>
+  
+  
+   <test name="ST1614ATS103Modifyexistingtrustdetails">
+    <classes>
+      <class name= "example.ST1614ATS103Modifyexistingtrustdetails" />
+    </classes>
+  </test>
+  
+  
+  
+</suite>
+ 

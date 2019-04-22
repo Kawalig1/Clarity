@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<listeners> 
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+   </listeners>
+
+  <test name="Test">
+  <parameter name="browser" value="chrome" />
+    <classes>
+          <class name="example.ATS_001_Activemembershits"/>
+          <class name="example.ATS002Perservedmemberhit"/>
+          <class name="example.Scenario1_ST_16_05_ATS001_AtrustteeAddsanentry"/>
+          <class name="example.Scenario1ST1605ATS002ATrusteeAddmultipleentries"/>
+          <class name="example.Scenario1ST1605ATS004AtrusteeAddaprivateevent"/>
+          <class name="example.Scenario1ST1605ATS005Goveranceuseraddsanentry"/>
+          <class name="example.Scenario1ST1605ATS007Addmorethanoneentriesonaselecteddate"/>
+          <class name="example.Scenario2ST1605ATS001Editentriesenteredbyothertrusteeswithintheowntrust"/>
+          <class name="example.Scenario2ST1605ATS003EditinganEventTtee"/>
+          <class name="example.Scenario2ST1605ATS004EditownentryChangedateofevent"/>
+          <class name="example.Scenario2ST1605ATS005EditAPrivateentryenteredbyTrustee"/>
+          <class name="example.Scenario2ST1605ATS006EditaPrivateentryUncheckPrivatecheckbox"/>
+          <class name="example.Scenario2ST1605ATS010EditingEventsGovernance"/>
+          <class name="example.Scenario2ST1605ATS012Cancelchangesmade"/>
+          <class name="example.Scenario2ST1605ATS013EditPublicentryastrusteeCheckPrivatecheckbox"/>
+          <class name="example.Scenario3ST1605ATS002DeleteentriesenteredbyotherusersTrusteeWithinthesamelegaltrustrole"/>
+          <class name="example.Scenario3ST1605ATS003DeleteownentryTrustee"/>
+          <class name="example.Scenario3ST1605ATS004Trusteedeletesaprivateentry"/>
+          <class name="example.Scenario3ST1605ATS006TrusteeDeletesanentrymadebyagoveranceuser"/>
+          <class name="example.Scenario5ST1605ATS001EnteraneventinthepastLeavedescriptionblankEnddateislessthanstartdate"/>
+          <class name="example.ST1610ATS001Changetherepositrykeyalreadyset"/>
+          <class name="example.ST1610ATS002Logindetailscheck"/>
+          <class name="example.ST1610ATS003Repositrykeynotset"/>
+          <class name="example.ST1614ATS100Createtrustfromadminsite"/>
+          <class name="example.ST1614ATS101CreateTrustwithoutmandatorydetails"/>
+          <class name="example.ST1614ATS101CreateTrustwithoutmandatorydetails"/>
+          <class name="example.ST1614ATS102Duplicatetrustcreation"/>
+          <class name="example.ST1614ATS103Modifyexistingtrustdetails"/>
+          <class name="example.ST1614ATS104VerificationofCancelfunctionality"/>
+          <class name="example.ST1614ATS105RestrictiononassigningmultiplerolestoSecretary"/>
+          <class name="example.ST1614ATS106UpdationofexistingroleassociatedwithaSecretary"/>
+          <class name="example.ST1614ATS107Restrictiononrolecreationforsecretarywithsamedetails"/>
+          <class name="example.ST1614ATS108Newrolecreationforasecretary"/>
+          <class name="example.ST1614ATS109UpdateaddressassociatedwithSecretary"/>
+          <class name="example.ST1614ATS110UpdateaddressforSecretarywithaddressnamealreadyexist"/>
+          <class name="example.ST1614ATS111UpdateaddressforSecretarywithoutenteringmandatorydetails"/>
+          <class name="example.ST1614ATS112CancelcreationofSecretaryaddress"/>
+          <class name="example.ST1614ATS113CancelupdationofSecretaryaddress"/>
+          <class name="example.ST1614ATS114CreateaddressforSecretary"/>
+          <class name="example.ST1614ATS115CreateaddressforSecretarywithaddressnamealreadyexist"/>
+          <class name="example.ST1614ATS116CreateaddressforSecretarywithoutenteringmandatorydetails"/>
+   		  <class name="example.ST1614ATS118Createaccountforsecretarywithoutmandatorydetails"/>	
+   		  <class name="example.ST1614ATS119CreateaccountforSecretarywithsamedetails"/>	
+   		  <class name="example.ST1614ATS120CreatemultipleaccountforSecretary"/>	
+   		  <class name="example.ST1614ATS121SecretarylogintoGovernancesite"/>	
+   		  <class name="example.ST1614ATS122ThisisthesameasATS121"/>
+   		  <class name="example.ST1614ATS123SecretaryloginwithvalidusernamePasswordintoAdminsite"/>
+   		  <class name="example.ST1614ATS124SecretarylogwithinvalidcredentialsintoAdminsite"/>
+   		  <class name="example.ST1614ATS125ChangeMemorablewordwithinvaliddetails"/>
+   		  <class name="example.ST1614ATS126ChangeMemorablewordwithvaliddetails"/>
+		  <class name="example.ST1614ATS127ChangeMemorablewordwithoutmandatorydetails"/>  	
+		  <class name="example.ST1614ATS128ResetdatainChangeMemorableWordpage"/> 	
+		  <class name="example.ST1614ATS129Changepasswordwithvalidinputs"/>   
+		  <class name="example.ST1614ATS130Changepasswordwithinvalidinputs"/> 
+		  <class name="example.ST1614ATS131ResetdatainChangePasswordpage"/>
+		  <class name="example.ST1614ATS132Changepasswordwithoutmandatorydetails"/>
+		  <class name="example.ST1614ATS141aUpdationofrepositorykeysettingsbysecretarywithvaliddetailsHtm"/>
+		  <class name="example.ST1614ATS141bUpdationofrepositorykeywithpasswordpolicy"/>
+   		  <class name="example.ST1614ATS141Updationofrepositorykeysettingsbysecretarywithinvaliddetails"/> 
+   		  <class name="example.ST1614ATS144CancelupdationandcreationofroleforTrusteeandGovernance"/>
+   		  <class name="example.ST1614ATS145CreationofroleforTrusteeandGovernance"/>
+   		  <class name="example.ST1614ATS146CreationofroleforTrusteeandGovernancewithsamedetails"/>
+   		  <class name="example.ST1614ATS147RestrictiononassigningmultiplerolestoTrusteeandGovernanceusers"/>
+   		  <class name="example.ST1614ATS148UpdateroleforTrusteeandGovernance"/>
+   		  <class name="example.ST1614ATS149CancelcreationofTrusteeandGovernanceaddress"/>
+   		  <class name="example.ST1614ATS150CancelupdationofTrusteeandGovernanceaddress"/>
+   		  <class name="example.ST1614ATS151CreateaddressforTrusteeandGovernance"/>
+   		  <class name="example.ST1614ATS152CreateaddressforTrusteewithaddressnamealreadyexist"/>
+   		  <class name="example.ST1614ATS153CreateaddressforGovernancewithaddressnamealreadyexist"/>
+   		  <class name="example.ST1614ATS154CreateaddressforTrusteeandGovernancewithoutenteringmandatorydetails"/>
+   		  <class name="example.ST1614ATS155UpdateaddressforTrusteeandGovernance"/>
+   		  <class name="example.ST1614ATS156UpdateaddressforTrusteeandGovernancewithaddressnamealreadyexist"/>
+   		  <class name="example.ST1614ATS157UpdateaddressforTrusteeandGovernancewithoutenteringmandatorydetails"/>
+   		  <class name="example.ST1614ATS158CreateaccountforTrusteeandGovernance"/>
+   		  <class name="example.ST1614ATS160CreateaccountforTrusteeandGovernancewithoutmandatorydetails"/>
+   		  <class name="example.ST1614ATS162CreatemultipleaccountforTrusteeandGovernance"/>
+   		  <class name="example.ST1614ATS163CreateAccountforTrusteewithoutzippassword"/>
+   		  <class name="example.ST1614ATS164Governanceloginwithoutenteringmandatorydetails"/>
+   		  <class name="example.ST1614ATS165GovernanceloginwithvalidUsernameandPassword"/>
+   		  <class name="example.ST1614ATS166GovernanceLoginwithinvaliddetails"/>
+   		  <class name="example.ST1614ATS167Trusteeloginwithoutenteringmandatorydetails"/>
+   		  <class name="example.ST1614ATS168TrusteeloginwithvalidUsernameandPassword"/>
+   		  <class name="example.ST1614ATS169TrusteeLoginwithinvaliddetails"/>
+   		  <class name="example.ST1614ATS170QAchangewithcorrectpasswordNOLONGERAPPLICABLE"/>
+   		  <class name="example.ST1614ATS171QAchangewithincorrectpasswordNOLONGERAPPLICABLE"/>
+   		  <class name="example.ST1614ATS172QAchangewithoutmandatorydetailsNOLONGERAPPLICABLE"/>
+   		  <class name="example.ST1614ATS173ResetdatainQApageNOLONGERAPPLICABLE"/>
+   		  <class name="example.ST1614ATS174aChangeMemorablewordwithvaliddetails"/>
+   		  <class name="example.ST1614ATS174ChangeMemorablewordwithinvaliddetails"/>
+   		  <class name="example.ST1614ATS175ChangeMemorablewordwithoutmandatorydetails"/>
+   		  <class name="example.ST1614ATS176ResetdatainChangeMemorableWordpage"/>
+   		  <class name="example.ST1614ATS177Changepasswordwithoutmandatorydetails"/>
+   		  <class name="example.ST1614ATS178Changepasswordwithinvalidinputs"/>
+   		  <class name="example.ST1614ATS179Changepasswordwithvalidinputs"/>
+   		  <class name="example.ST1614ATS180ResetdatainChangePasswordpage"/>
+   		  <class name="example.ST1614ATS202SecretaryshouldnotbeabletoviewotherSecretarytrustdetails"/>
+   		  <class name="example.ST1614ATS203SecretaryshouldnotbeabletoviewTrusteeandGovernanceusercreatedbyothersecretary"/>
+   		  <class name="example.ST1614ATS204Secretaryshouldnotbeabletoviewrolerelatedtoothertrust"/>
+   		  <class name="example.ST1614ATS205Secretaryshouldnotbeabletoviewaddressrelatedtoothertrust"/>
+   		  <class name="example.ST1614ATS206Secretaryshouldnotbeabletoviewschemerelateddocumentfolderswhicharenotunderhistrust"/>
+   		  <class name="example.ST1614ATS207Secretaryshouldbeabletoviewschemerelateddocumentfoldersrelatedtohistrust"/>
+   		  <class name="example.ST1614ATS208SecretaryshouldbeabletofilterandviewTrusteeandgovernanceusersunderhistrust"/>
+   		  <class name="example.ST1614ATS209SecretaryshouldbeabletoaddEditanddeleteschemefolder"/>
+   		  <class name="example.ST1614ATS211Secretaryshouldnotbeabletoviewschemedefaultfolderwhenschemeisremovedfromtrust"/>
+   		  <class name="example.ST1614ATS212Secretaryshouldnotbeabletoaddduplicatefolderinsamefolderlavel"/>
+   		  <class name="example.ST9901ATS001Adminsitesetup"/>
+   		  <class name="example.ST9901ATS002Secretarysite"/>
+   		  <class name="example.ST9901ATS003Governancesite"/>
+          
+          
+    </classes>
+  </test> <!-- Test -->
+   
+</suite> <!-- Suite -->

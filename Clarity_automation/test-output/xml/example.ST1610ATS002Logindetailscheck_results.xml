@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="example.ST1610ATS002Logindetailscheck"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="6.077">
+  <properties />
+  
+  
+      <testcase name="testST1610ATS002Logindetailscheck" time="6.077" />
+  
+</testsuite>

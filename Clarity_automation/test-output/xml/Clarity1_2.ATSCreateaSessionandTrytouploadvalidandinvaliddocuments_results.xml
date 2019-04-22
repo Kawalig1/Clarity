@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Clarity1_2.ATSCreateaSessionandTrytouploadvalidandinvaliddocuments"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="31.776">
+  <properties />
+  
+  
+      <testcase name="test0126001ATSCreateaSessionandTrytouploadvalidandinvaliddocuments" time="31.776" />
+  
+</testsuite>

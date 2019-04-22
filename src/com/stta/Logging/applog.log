@@ -1,0 +1,8 @@
+2018-06-08 11:12:05,263 - rootLogger - INFO - Execution Begins
+2018-06-08 11:12:06,014 - rootLogger - INFO - All Excel Files Initialised successfully
+2018-06-08 11:12:06,015 - rootLogger - INFO - Param.properties file loaded successfully
+2018-06-08 11:12:06,016 - rootLogger - INFO - Objects.properties file loaded successfully
+2018-06-08 11:12:06,016 - rootLogger - INFO - Time for init():749
+2018-06-08 11:12:30,501 - rootLogger - INFO - IE Driver Instance loaded successfully.
+2018-06-08 11:12:30,553 - rootLogger - INFO - Time for loadWebBrowser():24507
+2018-06-08 11:12:53,668 - rootLogger - INFO - Time for login():4724

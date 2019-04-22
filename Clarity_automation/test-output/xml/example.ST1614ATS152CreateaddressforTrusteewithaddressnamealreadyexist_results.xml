@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="example.ST1614ATS152CreateaddressforTrusteewithaddressnamealreadyexist"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="11.415">
+  <properties />
+  
+  
+      <testcase name="testST1614ATS152CreateaddressforTrusteewithaddressnamealreadyexist" time="11.415" />
+  
+</testsuite>

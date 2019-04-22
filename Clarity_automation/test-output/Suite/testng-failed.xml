@@ -1,0 +1,1024 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="browser" value="chrome"/>
+  <test name="Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="Clarity1_3.ATS012VerifyadminuserabletochangethestatusofactivePensioneraccounttoinactiveandlocked">
+        <methods>
+          <include name="test10005ATS012VerifyadminuserabletochangethestatusofactivePensioneraccounttoinactiveandlocked"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS012VerifyadminuserabletochangethestatusofactivePensioneraccounttoinactiveandlocked -->
+      <class name="Clarity1_3.ATS003Pensionershouldbeabletochangehismemorableword">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="test0208ATS003Pensionershouldbeabletochangehismemorableword"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS003Pensionershouldbeabletochangehismemorableword -->
+      <class name="Clarity1_3.ATS015Verifymemberwithfundsandzerounitsnotbeabletoprocessswitching">
+        <methods>
+          <include name="test1502ATS015Verifymemberwithfundsandzerounitsnotbeabletoprocessswitching"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS015Verifymemberwithfundsandzerounitsnotbeabletoprocessswitching -->
+      <class name="Clarity1_3.ATS006Pensionershouldnotbeabletochangehisquestionandanswerwithinvalidpassword">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="test0208ATS006Pensionershouldnotbeabletochangehisquestionandanswerwithinvalidpassword"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS006Pensionershouldnotbeabletochangehisquestionandanswerwithinvalidpassword -->
+      <class name="Clarity1_3.ATS003VerifymemberisnotabletoprocessanewswitchwhenanexistingswitchisoutstandingwhichwascreatedinoPenforAVCcontributiontype">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="test1502ATS003VerifymemberisnotabletoprocessanewswitchwhenanexistingswitchisoutstandingwhichwascreatedinoPenforAVCcontributiontype"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS003VerifymemberisnotabletoprocessanewswitchwhenanexistingswitchisoutstandingwhichwascreatedinoPenforAVCcontributiontype -->
+      <class name="Clarity1_3.ATS004Verifyapplicationdisplayspaydataonlyforlastfiveyears">
+        <methods>
+          <include name="test10020ATS004Verifyapplicationdisplayspaydataonlyforlastfiveyears"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS004Verifyapplicationdisplayspaydataonlyforlastfiveyears -->
+      <class name="Clarity1_3.SUPWRS91665ATS006Verifythatthesecretaryisloggedoutifhelockshisaccountduringchangerepositorykey">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="testSUPWRS91665ATS006Verifythatthesecretaryisloggedoutifhelockshisaccountduringchangerepositorykey"/>
+        </methods>
+      </class> <!-- Clarity1_3.SUPWRS91665ATS006Verifythatthesecretaryisloggedoutifhelockshisaccountduringchangerepositorykey -->
+      <class name="Clarity1_3.SUPWRS91415ATS001VerifyErrorlogisdisplayedinadminsite">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Clarity1_3.SUPWRS91415ATS001VerifyErrorlogisdisplayedinadminsite -->
+      <class name="Clarity1_3.ATS012VerifyClaritydisplaysthecorrecttextmessageinstep1Step2">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="test1501ATS012VerifyClaritydisplaysthecorrecttextmessageinstep1Step2"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS012VerifyClaritydisplaysthecorrecttextmessageinstep1Step2 -->
+      <class name="Clarity1_3.ATS008VerifyAdminuserabletologingenerateloginforpensionerwithstatusPENSUSP">
+        <methods>
+          <include name="tearDown"/>
+          <include name="test10005ATS008VerifyAdminuserabletologingenerateloginforpensionerwithstatusPENSUSP"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS008VerifyAdminuserabletologingenerateloginforpensionerwithstatusPENSUSP -->
+      <class name="Clarity1_3.ATS011VerifyClarityswitchedoffthelifestylingforbothAVCandNonAVCafterrequestingtheallocation">
+        <methods>
+          <include name="test1501ATS011VerifyClarityswitchedoffthelifestylingforbothAVCandNonAVCafterrequestingtheallocation"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS011VerifyClarityswitchedoffthelifestylingforbothAVCandNonAVCafterrequestingtheallocation -->
+      <class name="Clarity1_3.SUPWRS91665ATS003Verifythattheadminisloggedoutifhelockshisaccountduringchangerepositorykey">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testSUPWRS91665ATS003Verifythattheadminisloggedoutifhelockshisaccountduringchangerepositorykey"/>
+        </methods>
+      </class> <!-- Clarity1_3.SUPWRS91665ATS003Verifythattheadminisloggedoutifhelockshisaccountduringchangerepositorykey -->
+      <class name="Clarity1_3.ATS001ValidationofDatefieldsinPayHistory">
+        <methods>
+          <include name="test10020ATS001ValidationofDatefieldsinPayHistory"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS001ValidationofDatefieldsinPayHistory -->
+      <class name="Clarity1_3.ATS020VerifyPensionernotabletoaccesspagesofotherrolesandgotredirectedtopensionerHomepage">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="test10005ATS020VerifyPensionernotabletoaccesspagesofotherrolesandgotredirectedtopensionerHomepage"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS020VerifyPensionernotabletoaccesspagesofotherrolesandgotredirectedtopensionerHomepage -->
+      <class name="Clarity1_3.SUPWRS91665ATS007Verifythatthesecretaryisloggedoutifhelockshisaccountduringchangezippassword">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Clarity1_3.SUPWRS91665ATS007Verifythatthesecretaryisloggedoutifhelockshisaccountduringchangezippassword -->
+      <class name="Clarity1_3.SUPWRS91628ATS021Verifysupportuserabletogenerateloginforamember">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Clarity1_3.SUPWRS91628ATS021Verifysupportuserabletogenerateloginforamember -->
+      <class name="Clarity1_3.ATS003Verifymemberrequestforcontactadminisupdatedintransactionhistorypage">
+        <methods>
+          <include name="test10003ATS003Verifymemberrequestforcontactadminisupdatedintransactionhistorypage"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS003Verifymemberrequestforcontactadminisupdatedintransactionhistorypage -->
+      <class name="Clarity1_3.ATS034VerifyClaritydisplaysonlytheNonAVCallocationsforthemember">
+        <methods>
+          <include name="test1501ATS034VerifyClaritydisplaysonlytheNonAVCallocationsforthemember"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS034VerifyClaritydisplaysonlytheNonAVCallocationsforthemember -->
+      <class name="Clarity1_3.SUPWRS91628ATS012Verifysupportuserabletofilteronlymemberandemployerrole">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Clarity1_3.SUPWRS91628ATS012Verifysupportuserabletofilteronlymemberandemployerrole -->
+      <class name="Clarity1_3.SUPWRS91665ATS004Verifythattheadminisloggedoutifhelockshisaccountduringchangezippassword">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testSUPWRS91665ATS004Verifythattheadminisloggedoutifhelockshisaccountduringchangezippassword"/>
+        </methods>
+      </class> <!-- Clarity1_3.SUPWRS91665ATS004Verifythattheadminisloggedoutifhelockshisaccountduringchangezippassword -->
+      <class name="Clarity1_3.SUPWRS91628ATS001VerifySuperadminabletocreatesupportrolewithvalidinput">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Clarity1_3.SUPWRS91628ATS001VerifySuperadminabletocreatesupportrolewithvalidinput -->
+      <class name="Clarity1_3.SUPWRS91225ATS002Verifyinadminsiteforthereportsectionandalsoattrusteesiteforonlytheassingedreports">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="testSUPWRS91225ATS002Verifyinadminsiteforthereportsectionandalsoattrusteesiteforonlytheassingedreports"/>
+        </methods>
+      </class> <!-- Clarity1_3.SUPWRS91225ATS002Verifyinadminsiteforthereportsectionandalsoattrusteesiteforonlytheassingedreports -->
+      <class name="Clarity1_3.ATS003aVerifypayhistorydatabasedonfiltercriteria">
+        <methods>
+          <include name="test10020ATS003aVerifypayhistorydatabasedonfiltercriteria"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS003aVerifypayhistorydatabasedonfiltercriteria -->
+      <class name="Clarity1_3.ATS001VerifyTopmenusandleftlinksarerelevantforPensioner">
+        <methods>
+          <include name="test10005ATS001VerifyTopmenusandleftlinksarerelevantforPensioner"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS001VerifyTopmenusandleftlinksarerelevantforPensioner -->
+      <class name="Clarity1_3.ATS002VerifyClaritydisplayswarningmessagewhenmemberhaslifestyling">
+        <methods>
+          <include name="tearDown"/>
+          <include name="test1501ATS002VerifyClaritydisplayswarningmessagewhenmemberhaslifestyling"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS002VerifyClaritydisplayswarningmessagewhenmemberhaslifestyling -->
+      <class name="Clarity1_3.ATS015Verifyifthepercentagevaluesenteredinstep3areretainedwhenclickingbackfromstep3andproceedingagain">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="test1501ATS015Verifyifthepercentagevaluesenteredinstep3areretainedwhenclickingbackfromstep3andproceedingagain"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS015Verifyifthepercentagevaluesenteredinstep3areretainedwhenclickingbackfromstep3andproceedingagain -->
+      <class name="Clarity1_3.SUPWRS91628ATS004Verifyadminusernotabletogenerateloginforsupportrole">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Clarity1_3.SUPWRS91628ATS004Verifyadminusernotabletogenerateloginforsupportrole -->
+      <class name="Clarity1_3.ATS001Memberwithnotaxdata">
+        <methods>
+          <include name="test0202ATS001Memberwithnotaxdata"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS001Memberwithnotaxdata -->
+      <class name="Clarity1_3.ATS021VerifywhetherClaritylogstheuseroutofthesystemwhenuserenterinvalidpasswordformaximumattempts">
+        <methods>
+          <include name="tearDown"/>
+          <include name="test1502ATS021VerifywhetherClaritylogstheuseroutofthesystemwhenuserenterinvalidpasswordformaximumattempts"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS021VerifywhetherClaritylogstheuseroutofthesystemwhenuserenterinvalidpasswordformaximumattempts -->
+      <class name="Clarity1_3.ATS002VerifyAboutmymembershipforinpayuser">
+        <methods>
+          <include name="setUp"/>
+          <include name="test0204ATS002VerifyAboutmymembershipforinpayuser"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS002VerifyAboutmymembershipforinpayuser -->
+      <class name="Clarity1_3.ATS045VerifyclaritydisplayswarningmessageforlifestlyeinAVCcorrectly">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="test1501ATS045VerifyclaritydisplayswarningmessageforlifestlyeinAVCcorrectly"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS045VerifyclaritydisplayswarningmessageforlifestlyeinAVCcorrectly -->
+      <class name="Clarity1_3.ATS003VerifyMyPaymentDetailspageformemberwhosehasonlybankdetails">
+        <methods>
+          <include name="setUp"/>
+          <include name="test0204ATS003VerifyMyPaymentDetailspageformemberwhosehasonlybankdetails"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS003VerifyMyPaymentDetailspageformemberwhosehasonlybankdetails -->
+      <class name="Clarity1_3.ATS013VerifyadminuserabletochangethestatusoflockedPensioneraccounttoactiveandinactive">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="test10005ATS013VerifyadminuserabletochangethestatusoflockedPensioneraccounttoactiveandinactive"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS013VerifyadminuserabletochangethestatusoflockedPensioneraccounttoactiveandinactive -->
+      <class name="Clarity1_3.ATS025VerificationandvalidationinStep3ofswitchtransaction">
+        <methods>
+          <include name="tearDown"/>
+          <include name="test1502ATS025VerificationandvalidationinStep3ofswitchtransaction"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS025VerificationandvalidationinStep3ofswitchtransaction -->
+      <class name="Clarity1_3.SUPWRS91648ATS005Verifythatthegovernanceuserisloggedoutifhelockshisaccountduringchangememorableword">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Clarity1_3.SUPWRS91648ATS005Verifythatthegovernanceuserisloggedoutifhelockshisaccountduringchangememorableword -->
+      <class name="Clarity1_3.ATS002Verifylastpensionpaymentdetailsnotdisplayedwhenthememberdoesnothavelastpensionpaymentdetails">
+        <methods>
+          <include name="setUp"/>
+          <include name="test10009ATS002Verifylastpensionpaymentdetailsnotdisplayedwhenthememberdoesnothavelastpensionpaymentdetails"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS002Verifylastpensionpaymentdetailsnotdisplayedwhenthememberdoesnothavelastpensionpaymentdetails -->
+      <class name="Clarity1_3.ATS002Verifymemberisabletoviewandfiltertherequestbydateandtransactiontype">
+        <methods>
+          <include name="tearDown"/>
+          <include name="test10003ATS002Verifymemberisabletoviewandfiltertherequestbydateandtransactiontype"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS002Verifymemberisabletoviewandfiltertherequestbydateandtransactiontype -->
+      <class name="Clarity1_3.ATS019VerifyPensionerisabletomergehisaccountwithanotherpensioner">
+        <methods>
+          <include name="test10005ATS019VerifyPensionerisabletomergehisaccountwithanotherpensioner"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS019VerifyPensionerisabletomergehisaccountwithanotherpensioner -->
+      <class name="Clarity1_3.ATS065Verifymembersitefundsvaluesandfundsbasedontheconfigurationisadminsite">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="test1502ATS065Verifymembersitefundsvaluesandfundsbasedontheconfigurationisadminsite"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS065Verifymembersitefundsvaluesandfundsbasedontheconfigurationisadminsite -->
+      <class name="Clarity1_3.ATS004EmployerabletoimpersonateaPensionerwithoutloginandstatusPENSUS">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="test0207ATS004EmployerabletoimpersonateaPensionerwithoutloginandstatusPENSUS"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS004EmployerabletoimpersonateaPensionerwithoutloginandstatusPENSUS -->
+      <class name="Clarity1_3.ATS028MemberwithNonAVCfundsonly">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="test1502ATS028MemberwithNonAVCfundsonly"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS028MemberwithNonAVCfundsonly -->
+      <class name="Clarity1_3.ATS015VerifyAdminusernotabletologingenerateloginforpensionerwithstatusCLOSED">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS015VerifyAdminusernotabletologingenerateloginforpensionerwithstatusCLOSED -->
+      <class name="Clarity1_3.ATS011VerifyadminuserabletochangethestatusofinactivePensionertoactiveandlocked">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="test10005ATS011VerifyadminuserabletochangethestatusofinactivePensionertoactiveandlocked"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS011VerifyadminuserabletochangethestatusofinactivePensionertoactiveandlocked -->
+      <class name="Clarity1_3.SUPWRS91628ATS003Verifysuperadminabletogenerateloginforsupportrole">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Clarity1_3.SUPWRS91628ATS003Verifysuperadminabletogenerateloginforsupportrole -->
+      <class name="Clarity1_3.SUPWRS91628ATS002Verifysupportroledoesnothavecustomtemplatefield">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Clarity1_3.SUPWRS91628ATS002Verifysupportroledoesnothavecustomtemplatefield -->
+      <class name="Clarity1_3.ATS014Verifyifthefundsselectedinstep2areretainedwhenthememberclicksbackfromStep3">
+        <methods>
+          <include name="test1501ATS014Verifyifthefundsselectedinstep2areretainedwhenthememberclicksbackfromStep3"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS014Verifyifthefundsselectedinstep2areretainedwhenthememberclicksbackfromStep3 -->
+      <class name="Clarity1_3.ATS008EmployerabletoimpersonateaPensionerwithloginandstatusCLOSED">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="test0207ATS008EmployerabletoimpersonateaPensionerwithloginandstatusCLOSED"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS008EmployerabletoimpersonateaPensionerwithloginandstatusCLOSED -->
+      <class name="Clarity1_3.ATS009VerifyadminuserabletoresetpasswordforpensionerwithINPAYstatus">
+        <methods>
+          <include name="test10005ATS009VerifyadminuserabletoresetpasswordforpensionerwithINPAYstatus"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS009VerifyadminuserabletoresetpasswordforpensionerwithINPAYstatus -->
+      <class name="Clarity1_3.ATS002VerifymemberisnotabletoprocessanewswitchwhenanexistingswitchisoutstandingwhichwascreatedinClarityfornonAVCcontribution">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="test1502ATS002VerifymemberisnotabletoprocessanewswitchwhenanexistingswitchisoutstandingwhichwascreatedinClarityfornonAVCcontribution"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS002VerifymemberisnotabletoprocessanewswitchwhenanexistingswitchisoutstandingwhichwascreatedinClarityfornonAVCcontribution -->
+      <class name="Clarity1_3.ATS006VerifyActivePreservedmembernotabletoaccessPensionerpages">
+        <methods>
+          <include name="tearDown"/>
+          <include name="test10005ATS006VerifyActivePreservedmembernotabletoaccessPensionerpages"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS006VerifyActivePreservedmembernotabletoaccessPensionerpages -->
+      <class name="Clarity1_3.ATS028Verifyiftransactiontableisupdatedcorrectly">
+        <methods>
+          <include name="setUp"/>
+          <include name="test1501ATS028Verifyiftransactiontableisupdatedcorrectly"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS028Verifyiftransactiontableisupdatedcorrectly -->
+      <class name="Clarity1_3.SUPWRS91628ATS008VerifysupportuserabletologintoAdminsite">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Clarity1_3.SUPWRS91628ATS008VerifysupportuserabletologintoAdminsite -->
+      <class name="Clarity1_3.ATS017VerifyClaritydisplaysanerrormessageifthememberentersaninvalideMailid">
+        <methods>
+          <include name="test1501ATS017VerifyClaritydisplaysanerrormessageifthememberentersaninvalideMailid"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS017VerifyClaritydisplaysanerrormessageifthememberentersaninvalideMailid -->
+      <class name="Clarity1_3.ATS019VerifyClaritydisplaysummaryreportandprocesstheswitchrequestwhenmemberentersvalidpassword">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="test1502ATS019VerifyClaritydisplaysummaryreportandprocesstheswitchrequestwhenmemberentersvalidpassword"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS019VerifyClaritydisplaysummaryreportandprocesstheswitchrequestwhenmemberentersvalidpassword -->
+      <class name="Clarity1_3.ATS002Pensionershouldnotbeabletochangehispasswordwithinvaliddetails">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="test0208ATS002Pensionershouldnotbeabletochangehispasswordwithinvaliddetails"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS002Pensionershouldnotbeabletochangehispasswordwithinvaliddetails -->
+      <class name="Clarity1_3.ATS004Verifymembersareabletocanceltheallocationanytimebeforeconfirmationandittakestothefirstpage">
+        <methods>
+          <include name="test1501ATS004Verifymembersareabletocanceltheallocationanytimebeforeconfirmationandittakestothefirstpage"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS004Verifymembersareabletocanceltheallocationanytimebeforeconfirmationandittakestothefirstpage -->
+      <class name="Clarity1_3.ATS016VerifyClaritydisplaysthecorrecttextmessageinsummarypage">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="test1501ATS016VerifyClaritydisplaysthecorrecttextmessageinsummarypage"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS016VerifyClaritydisplaysthecorrecttextmessageinsummarypage -->
+      <class name="Clarity1_3.ATS017VerifyPensionerisabletomergehisaccountwithActiveuser">
+        <methods>
+          <include name="test10005ATS017VerifyPensionerisabletomergehisaccountwithActiveuser"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS017VerifyPensionerisabletomergehisaccountwithActiveuser -->
+      <class name="Clarity1_3.ATS003MemberwithtaxdataotherthanPrevioustaxyear">
+        <methods>
+          <include name="test0202ATS003MemberwithtaxdataotherthanPrevioustaxyear"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS003MemberwithtaxdataotherthanPrevioustaxyear -->
+      <class name="Clarity1_3.ATS007Pensionersareabletoresettheirpasswordsiftheyhaveforgottenit">
+        <methods>
+          <include name="test0208ATS007Pensionersareabletoresettheirpasswordsiftheyhaveforgottenit"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS007Pensionersareabletoresettheirpasswordsiftheyhaveforgottenit -->
+      <class name="Clarity1_3.ATS008VerifyClaritydisplaysthecurrentaddressofthememberinAboutmepage">
+        <methods>
+          <include name="tearDown"/>
+          <include name="test0204ATS008VerifyClaritydisplaysthecurrentaddressofthememberinAboutmepage"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS008VerifyClaritydisplaysthecurrentaddressofthememberinAboutmepage -->
+      <class name="Clarity1_3.ATS003Verifymembersareabletonavigatebackandforthfromallthesteps">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="test1501ATS003Verifymembersareabletonavigatebackandforthfromallthesteps"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS003Verifymembersareabletonavigatebackandforthfromallthesteps -->
+      <class name="Clarity1_3.ATS010MemberwithBothAVCandNonAVCunprocessedswitches">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="test1502ATS010MemberwithBothAVCandNonAVCunprocessedswitches"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS010MemberwithBothAVCandNonAVCunprocessedswitches -->
+      <class name="Clarity1_3.ATS026VerificationandvalidationinStep4ofswitchtransaction">
+        <methods>
+          <include name="test1502ATS026VerificationandvalidationinStep4ofswitchtransaction"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS026VerificationandvalidationinStep4ofswitchtransaction -->
+      <class name="Clarity1_3.SUPWRS91628ATS015Verifyuserwithmemberrolenotabletomergewithsupportrole">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Clarity1_3.SUPWRS91628ATS015Verifyuserwithmemberrolenotabletomergewithsupportrole -->
+      <class name="Clarity1_3.ATS001EmployerabletoimpersonateaPensionerwithloginandstatusINPAY">
+        <methods>
+          <include name="test0207ATS001EmployerabletoimpersonateaPensionerwithloginandstatusINPAY"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS001EmployerabletoimpersonateaPensionerwithloginandstatusINPAY -->
+      <class name="Clarity1_3.ATS035VerifyClaritydisplaysonlytheNonAVCallocationsinthesummarypage">
+        <methods>
+          <include name="setUp"/>
+          <include name="test1501ATS035VerifyClaritydisplaysonlytheNonAVCallocationsinthesummarypage"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS035VerifyClaritydisplaysonlytheNonAVCallocationsinthesummarypage -->
+      <class name="Clarity1_3.ATS048VerifyclaritydisplayswarningmessageforlifestyleinNonAVCcorrectly">
+        <methods>
+          <include name="test1501ATS048VerifyclaritydisplayswarningmessageforlifestyleinNonAVCcorrectly"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS048VerifyclaritydisplayswarningmessageforlifestyleinNonAVCcorrectly -->
+      <class name="Clarity1_3.SUPWRS91628ATS017VerifyuserwithGovernancerolenotabletomergewithsupportrole">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Clarity1_3.SUPWRS91628ATS017VerifyuserwithGovernancerolenotabletomergewithsupportrole -->
+      <class name="Clarity1_3.SUPWRS91665ATS008Verifythatthesecretaryisloggedoutifhelockshisaccountduringchangememorableword">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Clarity1_3.SUPWRS91665ATS008Verifythatthesecretaryisloggedoutifhelockshisaccountduringchangememorableword -->
+      <class name="Clarity1_3.ATS005Memberwithnegativevalueinthetaxdedutedcolumn">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="test0202ATS005Memberwithnegativevalueinthetaxdedutedcolumn"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS005Memberwithnegativevalueinthetaxdedutedcolumn -->
+      <class name="Clarity1_3.ATS001VerifyAboutmepageforinpayuser">
+        <methods>
+          <include name="setUp"/>
+          <include name="test0204ATS001VerifyAboutmepageforinpayuser"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS001VerifyAboutmepageforinpayuser -->
+      <class name="Clarity1_3.SUPWRS91628ATS007Verifysuperadminabletoresetpasswordofsupportuserandresetuserisdisplayedinlogingenerationtab">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="testSUPWRS91628ATS007Verifysuperadminabletoresetpasswordofsupportuserandresetuserisdisplayedinlogingenerationtab"/>
+        </methods>
+      </class> <!-- Clarity1_3.SUPWRS91628ATS007Verifysuperadminabletoresetpasswordofsupportuserandresetuserisdisplayedinlogingenerationtab -->
+      <class name="Clarity1_3.ATS018VerifyClaritydisplayanerrormessageifmemberentersaninvalidtelephonenumber">
+        <methods>
+          <include name="setUp"/>
+          <include name="test1501ATS018VerifyClaritydisplayanerrormessageifmemberentersaninvalidtelephonenumber"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS018VerifyClaritydisplayanerrormessageifmemberentersaninvalidtelephonenumber -->
+      <class name="Clarity1_3.ATS027MemberwithAVCfundsonly">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="test1502ATS027MemberwithAVCfundsonly"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS027MemberwithAVCfundsonly -->
+      <class name="Clarity1_3.SUPWRS91628ATS005Verifysuperadminuserabletofilterwithsupportrole">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Clarity1_3.SUPWRS91628ATS005Verifysuperadminuserabletofilterwithsupportrole -->
+      <class name="Clarity1_3.ATS002EmployerabletoimpersonateaPensionerwithloginandstatusPENSUS">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="test0207ATS002EmployerabletoimpersonateaPensionerwithloginandstatusPENSUS"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS002EmployerabletoimpersonateaPensionerwithloginandstatusPENSUS -->
+      <class name="Clarity1_3.SUPWRS91628ATS014Verifysupportuserabletochangethestatusofmemberandemployerrole">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Clarity1_3.SUPWRS91628ATS014Verifysupportuserabletochangethestatusofmemberandemployerrole -->
+      <class name="Clarity1_3.ATS004Verifymemberrequestforswitchisupdatedintransactionhistorypage">
+        <methods>
+          <include name="tearDown"/>
+          <include name="test10003ATS004Verifymemberrequestforswitchisupdatedintransactionhistorypage"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS004Verifymemberrequestforswitchisupdatedintransactionhistorypage -->
+      <class name="Clarity1_3.ATS002VerifyPensionerabletoaccessonlyrelevantpages">
+        <methods>
+          <include name="test10005ATS002VerifyPensionerabletoaccessonlyrelevantpages"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS002VerifyPensionerabletoaccessonlyrelevantpages -->
+      <class name="Clarity1_3.ATS004Pensionershouldnotbeabletochangehismemorableword">
+        <methods>
+          <include name="test0208ATS004Pensionershouldnotbeabletochangehismemorableword"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS004Pensionershouldnotbeabletochangehismemorableword -->
+      <class name="Clarity1_3.ATS007VerifyAdminuserabletologingenerateloginforpensionerwithstatusINPAY">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="test10005ATS007VerifyAdminuserabletologingenerateloginforpensionerwithstatusINPAY"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS007VerifyAdminuserabletologingenerateloginforpensionerwithstatusINPAY -->
+      <class name="Clarity1_3.ATS007VerifymemberisabletorequestanewswitchfornonAVCwhenanexistingswitchisoutstandingforAVCwhichwascreatedinClarity">
+        <methods>
+          <include name="test1502ATS007VerifymemberisabletorequestanewswitchfornonAVCwhenanexistingswitchisoutstandingforAVCwhichwascreatedinClarity"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS007VerifymemberisabletorequestanewswitchfornonAVCwhenanexistingswitchisoutstandingforAVCwhichwascreatedinClarity -->
+      <class name="Clarity1_3.ATS008VerifymemberisabletorequestanewswitchfornonAVCwhenanexistingswitchisoutstandingforAVCwhichwascreatedinoPen">
+        <methods>
+          <include name="test1502ATS008VerifymemberisabletorequestanewswitchfornonAVCwhenanexistingswitchisoutstandingforAVCwhichwascreatedinoPen"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS008VerifymemberisabletorequestanewswitchfornonAVCwhenanexistingswitchisoutstandingforAVCwhichwascreatedinoPen -->
+      <class name="Clarity1_3.SUPWRS91628ATS009Verifysupportusernotablelogintomembersite">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Clarity1_3.SUPWRS91628ATS009Verifysupportusernotablelogintomembersite -->
+      <class name="Clarity1_3.SUPWRS91665ATS001Verifythattheadminisloggedoutifhelockshisaccountduringchangepassword">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Clarity1_3.SUPWRS91665ATS001Verifythattheadminisloggedoutifhelockshisaccountduringchangepassword -->
+      <class name="Clarity1_3.ATS006Verifymemberisabletoseethesummarypagewiththefundsandpercentagesgivenbefore">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="test1501ATS006Verifymemberisabletoseethesummarypagewiththefundsandpercentagesgivenbefore"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS006Verifymemberisabletoseethesummarypagewiththefundsandpercentagesgivenbefore -->
+      <class name="Clarity1_3.ATS020Verifyifthememberistakentofirstpageonclickingcancelinthesummarypage">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="test1501ATS020Verifyifthememberistakentofirstpageonclickingcancelinthesummarypage"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS020Verifyifthememberistakentofirstpageonclickingcancelinthesummarypage -->
+      <class name="Clarity1_3.ATS007Verifymembergetsanerrormessageforinvalidpasswordinthesummarypage">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="test1501ATS007Verifymembergetsanerrormessageforinvalidpasswordinthesummarypage"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS007Verifymembergetsanerrormessageforinvalidpasswordinthesummarypage -->
+      <class name="Clarity1_3.ATS007Verifyhomeaddressisdisplayedwhenpaymentaddressisnotavailableforthemember">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="test0204ATS007Verifyhomeaddressisdisplayedwhenpaymentaddressisnotavailableforthemember"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS007Verifyhomeaddressisdisplayedwhenpaymentaddressisnotavailableforthemember -->
+      <class name="Clarity1_3.SUPWRS91648ATS004Verifythatthegovernanceuserisloggedoutifhelockshisaccountduringchangepassword">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testSUPWRS91648ATS004Verifythatthegovernanceuserisloggedoutifhelockshisaccountduringchangepassword"/>
+        </methods>
+      </class> <!-- Clarity1_3.SUPWRS91648ATS004Verifythatthegovernanceuserisloggedoutifhelockshisaccountduringchangepassword -->
+      <class name="Clarity1_3.ATS008Pensionersarenotabletoresettheirpasswordswithinvaliddetails">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS008Pensionersarenotabletoresettheirpasswordswithinvaliddetails -->
+      <class name="Clarity1_3.ATS001VerifymemberisnotabletoprocessanewswitchwhenanexistingswitchisoutstandingwhichwascreatedinClarityforAVCcontributiontype">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="test1502ATS001VerifymemberisnotabletoprocessanewswitchwhenanexistingswitchisoutstandingwhichwascreatedinClarityforAVCcontributiontype"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS001VerifymemberisnotabletoprocessanewswitchwhenanexistingswitchisoutstandingwhichwascreatedinClarityforAVCcontributiontype -->
+      <class name="Clarity1_3.ATS004MemberwithtaxdatainthePrevioustaxyears">
+        <methods>
+          <include name="test0202ATS004MemberwithtaxdatainthePrevioustaxyears"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS004MemberwithtaxdatainthePrevioustaxyears -->
+      <class name="Clarity1_3.ATS001Pensionershouldbeabletochangehispassword">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="test0208ATS001Pensionershouldbeabletochangehispassword"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS001Pensionershouldbeabletochangehispassword -->
+      <class name="Clarity1_3.ATS022VerifyclaritydisplaystheonlytheexistingAVCcontributionallocationsforthemember">
+        <methods>
+          <include name="setUp"/>
+          <include name="test1501ATS022VerifyclaritydisplaystheonlytheexistingAVCcontributionallocationsforthemember"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS022VerifyclaritydisplaystheonlytheexistingAVCcontributionallocationsforthemember -->
+      <class name="Clarity1_3.ATS021VerifyClaritydisplaysthelifestylewarningmessageinfirstpage">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="test1501ATS021VerifyClaritydisplaysthelifestylewarningmessageinfirstpage"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS021VerifyClaritydisplaysthelifestylewarningmessageinfirstpage -->
+      <class name="Clarity1_3.ATS007Memberwithmorethantwotaxdatainthesameyear">
+        <methods>
+          <include name="tearDown"/>
+          <include name="test0202ATS007Memberwithmorethantwotaxdatainthesameyear"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS007Memberwithmorethantwotaxdatainthesameyear -->
+      <class name="Clarity1_3.ATS010VerifyadminuserabletoresetpasswordforpensionerwithPENSUSPstatus">
+        <methods>
+          <include name="test10005ATS010VerifyadminuserabletoresetpasswordforpensionerwithPENSUSPstatus"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS010VerifyadminuserabletoresetpasswordforpensionerwithPENSUSPstatus -->
+      <class name="Clarity1_3.SUPWRS91628ATS019VerifySupportusernameamendby1whengeneratingLoginwithsameuserdetails">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Clarity1_3.SUPWRS91628ATS019VerifySupportusernameamendby1whengeneratingLoginwithsameuserdetails -->
+      <class name="Clarity1_3.ATS031VerifyClaritydisplayserrormessagewhentotalcontributionislessthan100percentage">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="test1501ATS031VerifyClaritydisplayserrormessagewhentotalcontributionislessthan100percentage"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS031VerifyClaritydisplayserrormessagewhentotalcontributionislessthan100percentage -->
+      <class name="Clarity1_3.ATS022Verificationandvalidationoffieldsinstep1ofswitchtransaction">
+        <methods>
+          <include name="tearDown"/>
+          <include name="test1502ATS022Verificationandvalidationoffieldsinstep1ofswitchtransaction"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS022Verificationandvalidationoffieldsinstep1ofswitchtransaction -->
+      <class name="Clarity1_3.ATS0092VerifymemberwithlifestylefundwhohasbothAVCandNonAVCcontributiontypeabletoprocessswitch">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="test1502ATS0092VerifymemberwithlifestylefundwhohasbothAVCandNonAVCcontributiontypeabletoprocessswitch"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS0092VerifymemberwithlifestylefundwhohasbothAVCandNonAVCcontributiontypeabletoprocessswitch -->
+      <class name="Clarity1_3.ATS008Verifymemberisabletoseethethankyoupageafterenteringavalidpassword">
+        <methods>
+          <include name="setUp"/>
+          <include name="test1501ATS008Verifymemberisabletoseethethankyoupageafterenteringavalidpassword"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS008Verifymemberisabletoseethethankyoupageafterenteringavalidpassword -->
+      <class name="Clarity1_3.ATS0093VerifymemberwithlifestylefundwhohasbothAVCandNon">
+        <methods>
+          <include name="setUp"/>
+          <include name="test1502ATS0093VerifymemberwithlifestylefundwhohasbothAVCandNon"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS0093VerifymemberwithlifestylefundwhohasbothAVCandNon -->
+      <class name="Clarity1_3.ATS007EmployerabletoimpersonateaPensionerwithloginandstatusPENUN">
+        <methods>
+          <include name="test0207ATS007EmployerabletoimpersonateaPensionerwithloginandstatusPENUN"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS007EmployerabletoimpersonateaPensionerwithloginandstatusPENUN -->
+      <class name="Clarity1_3.ATS032VerifyClaritydisplayserrormessagewhentotalcontributionisgreaterthan100percentage">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="test1501ATS032VerifyClaritydisplayserrormessagewhentotalcontributionisgreaterthan100percentage"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS032VerifyClaritydisplayserrormessagewhentotalcontributionisgreaterthan100percentage -->
+      <class name="Clarity1_3.ATS005Verifyifthememberisabletoseetheguidancetextontheremainingcontributionscorrectly">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="test1501ATS005Verifyifthememberisabletoseetheguidancetextontheremainingcontributionscorrectly"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS005Verifyifthememberisabletoseetheguidancetextontheremainingcontributionscorrectly -->
+      <class name="Clarity1_3.SUPWRS91628ATS020Verifysupportuserabletoperformblacklistoperationforempolyerrole">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Clarity1_3.SUPWRS91628ATS020Verifysupportuserabletoperformblacklistoperationforempolyerrole -->
+      <class name="Clarity1_3.ATS001VerifyClaritydisplaysthetextinthefirstpagecorrectly">
+        <methods>
+          <include name="tearDown"/>
+          <include name="test1501ATS001VerifyClaritydisplaysthetextinthefirstpagecorrectly"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS001VerifyClaritydisplaysthetextinthefirstpagecorrectly -->
+      <class name="Clarity1_3.ATS006VerifyPensionerabletoviewtheirHomepage">
+        <methods>
+          <include name="test0204ATS006VerifyPensionerabletoviewtheirHomepage"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS006VerifyPensionerabletoviewtheirHomepage -->
+      <class name="Clarity1_3.SUPWRS91628ATS010Verifysupportuserabletochangehispasswordandloginwithnewpassword">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testSUPWRS91628ATS010Verifysupportuserabletochangehispasswordandloginwithnewpassword"/>
+        </methods>
+      </class> <!-- Clarity1_3.SUPWRS91628ATS010Verifysupportuserabletochangehispasswordandloginwithnewpassword -->
+      <class name="Clarity1_3.ATS004VerifymemberisnotabletoprocessanewswitchwhenanexistingswitchisoutstandingwhichwascreatedinoPenfornonAVCcontribution">
+        <methods>
+          <include name="tearDown"/>
+          <include name="test1502ATS004VerifymemberisnotabletoprocessanewswitchwhenanexistingswitchisoutstandingwhichwascreatedinoPenfornonAVCcontribution"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS004VerifymemberisnotabletoprocessanewswitchwhenanexistingswitchisoutstandingwhichwascreatedinoPenfornonAVCcontribution -->
+      <class name="Clarity1_3.ATS044Verifyifthememberaccountlocksoutformaximumattemptsofinvalidpasswordinsummarypage">
+        <methods>
+          <include name="tearDown"/>
+          <include name="test1501ATS044Verifyifthememberaccountlocksoutformaximumattemptsofinvalidpasswordinsummarypage"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS044Verifyifthememberaccountlocksoutformaximumattemptsofinvalidpasswordinsummarypage -->
+      <class name="Clarity1_3.SUPWRS91225ATS001Verifyinadminsiteforthereportsectionandalsoatgovernacesiteforonlytheassingedreports">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testSUPWRS91225ATS001Verifyinadminsiteforthereportsectionandalsoatgovernacesiteforonlytheassingedreports"/>
+        </methods>
+      </class> <!-- Clarity1_3.SUPWRS91225ATS001Verifyinadminsiteforthereportsectionandalsoatgovernacesiteforonlytheassingedreports -->
+      <class name="Clarity1_3.ATS029MemberwithbothAVCandNonAVCFunds">
+        <methods>
+          <include name="test1502ATS029MemberwithbothAVCandNonAVCFunds"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS029MemberwithbothAVCandNonAVCFunds -->
+      <class name="Clarity1_3.ATS006Memberwithtaxdatainthecurrenttaxyear">
+        <methods>
+          <include name="test0202ATS006Memberwithtaxdatainthecurrenttaxyear"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS006Memberwithtaxdatainthecurrenttaxyear -->
+      <class name="Clarity1_3.ATS033VerifyClaritydisplayserrormessagewhennofundisselected">
+        <methods>
+          <include name="setUp"/>
+          <include name="test1501ATS033VerifyClaritydisplayserrormessagewhennofundisselected"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS033VerifyClaritydisplayserrormessagewhennofundisselected -->
+      <class name="Clarity1_3.ATS0261VerificationandvalidationinconfirmationpageofSwitchtransaction">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="test1502ATS0261VerificationandvalidationinconfirmationpageofSwitchtransaction"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS0261VerificationandvalidationinconfirmationpageofSwitchtransaction -->
+      <class name="Clarity1_3.ATS004VerifyMyPaymentDetailspageformemberwhosehasonlybanksocietydetails">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="test0204ATS004VerifyMyPaymentDetailspageformemberwhosehasonlybanksocietydetails"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS004VerifyMyPaymentDetailspageformemberwhosehasonlybanksocietydetails -->
+      <class name="Clarity1_3.SUPWRS91665ATS010Verifythatthesupportuserisloggedoutifhelockshisaccountduringchangememorableword">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Clarity1_3.SUPWRS91665ATS010Verifythatthesupportuserisloggedoutifhelockshisaccountduringchangememorableword -->
+      <class name="Clarity1_3.ATS021VerifyClaritydisplaysappropriatedetailsinthecorrespondingswitchstepsbasedonContributiontypeselected">
+        <methods>
+          <include name="setUp"/>
+          <include name="test1502ATS021VerifyClaritydisplaysappropriatedetailsinthecorrespondingswitchstepsbasedonContributiontypeselected"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS021VerifyClaritydisplaysappropriatedetailsinthecorrespondingswitchstepsbasedonContributiontypeselected -->
+      <class name="Clarity1_3.ATS064Verifymemberabletocanceltheswitchbeforeconfirmationandsystemreturnsthemembertostep1ofswitch">
+        <methods>
+          <include name="test1502ATS064Verifymemberabletocanceltheswitchbeforeconfirmationandsystemreturnsthemembertostep1ofswitch"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS064Verifymemberabletocanceltheswitchbeforeconfirmationandsystemreturnsthemembertostep1ofswitch -->
+      <class name="Clarity1_3.SUPWRS91648ATS001Verifythatthememberisloggedoutifhelockshisaccountduringchangepassword">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="testSUPWRS91648ATS001Verifythatthememberisloggedoutifhelockshisaccountduringchangepassword"/>
+        </methods>
+      </class> <!-- Clarity1_3.SUPWRS91648ATS001Verifythatthememberisloggedoutifhelockshisaccountduringchangepassword -->
+      <class name="Clarity1_3.ATS030VerifyClaritydisplayslistoffundsinopenstatustothemembertomovethemoneyintofundsbasedonbenefitlevel">
+        <methods>
+          <include name="setUp"/>
+          <include name="test1501ATS030VerifyClaritydisplayslistoffundsinopenstatustothemembertomovethemoneyintofundsbasedonbenefitlevel"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS030VerifyClaritydisplayslistoffundsinopenstatustothemembertomovethemoneyintofundsbasedonbenefitlevel -->
+      <class name="Clarity1_3.ATS0091VerifymemberwithlifestylefundwhohasAVCcontributiontypeabletoprocessswitch">
+        <methods>
+          <include name="setUp"/>
+          <include name="test1502ATS0091VerifymemberwithlifestylefundwhohasAVCcontributiontypeabletoprocessswitch"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS0091VerifymemberwithlifestylefundwhohasAVCcontributiontypeabletoprocessswitch -->
+      <class name="Clarity1_3.ATS041VerifyclaritythrowsanerrorifthereisnothingconfiguredforAVCNonAVC">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="test1501ATS041VerifyclaritythrowsanerrorifthereisnothingconfiguredforAVCNonAVC"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS041VerifyclaritythrowsanerrorifthereisnothingconfiguredforAVCNonAVC -->
+      <class name="Clarity1_3.SUPWRS91648ATS002Verifythatthememberisloggedoutifhelockshisaccountduringchangememorableword">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testSUPWRS91648ATS002Verifythatthememberisloggedoutifhelockshisaccountduringchangememorableword"/>
+        </methods>
+      </class> <!-- Clarity1_3.SUPWRS91648ATS002Verifythatthememberisloggedoutifhelockshisaccountduringchangememorableword -->
+      <class name="Clarity1_3.ATS016VerifyadminuserabletosetcorrespondenceaddressforPensioner">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS016VerifyadminuserabletosetcorrespondenceaddressforPensioner -->
+      <class name="Clarity1_3.ATS002Verifyappropriateerrormessageisdisplayedwhennodataisavailableforfiltercriteria">
+        <methods>
+          <include name="setUp"/>
+          <include name="test10020ATS002Verifyappropriateerrormessageisdisplayedwhennodataisavailableforfiltercriteria"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS002Verifyappropriateerrormessageisdisplayedwhennodataisavailableforfiltercriteria -->
+      <class name="Clarity1_3.ATS005Verifymemberrequestforcontributionallocationisupdatedintransactionhistorypage">
+        <methods>
+          <include name="tearDown"/>
+          <include name="test10003ATS005Verifymemberrequestforcontributionallocationisupdatedintransactionhistorypage"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS005Verifymemberrequestforcontributionallocationisupdatedintransactionhistorypage -->
+      <class name="Clarity1_3.ATS022Verifymemberabletocanceltheswitchatanystageoftheswitchrequest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="test1502ATS022Verifymemberabletocanceltheswitchatanystageoftheswitchrequest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS022Verifymemberabletocanceltheswitchatanystageoftheswitchrequest -->
+      <class name="Clarity1_3.ATS0221Verificationandvalidationoffieldsinstep2ofswitchtransaction">
+        <methods>
+          <include name="setUp"/>
+          <include name="test1502ATS0221Verificationandvalidationoffieldsinstep2ofswitchtransaction"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS0221Verificationandvalidationoffieldsinstep2ofswitchtransaction -->
+      <class name="Clarity1_3.ATS020VerifyClaritydisplayserrormessagewhenmemberentersinvalidpassword">
+        <methods>
+          <include name="test1502ATS020VerifyClaritydisplayserrormessagewhenmemberentersinvalidpassword"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS020VerifyClaritydisplayserrormessagewhenmemberentersinvalidpassword -->
+      <class name="Clarity1_3.ATS049VerifyclarityswitchoffthelifestyleforNonAVCcorrectlyafterreqstingtheallocation">
+        <methods>
+          <include name="test1501ATS049VerifyclarityswitchoffthelifestyleforNonAVCcorrectlyafterreqstingtheallocation"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS049VerifyclarityswitchoffthelifestyleforNonAVCcorrectlyafterreqstingtheallocation -->
+      <class name="Clarity1_3.SUPWRS91665ATS009Verifythatthesupportuserisloggedoutifhelockshisaccountduringchangepassword">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Clarity1_3.SUPWRS91665ATS009Verifythatthesupportuserisloggedoutifhelockshisaccountduringchangepassword -->
+      <class name="Clarity1_3.ATS025VerifyclaritydisplaysonlytheexistingNonAVCallocationsforthemember">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="test1501ATS025VerifyclaritydisplaysonlytheexistingNonAVCallocationsforthemember"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS025VerifyclaritydisplaysonlytheexistingNonAVCallocationsforthemember -->
+      <class name="Clarity1_3.SUPWRS91628ATS002Verifysupportroledoesnothaveselecttemplatefield">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Clarity1_3.SUPWRS91628ATS002Verifysupportroledoesnothaveselecttemplatefield -->
+      <class name="Clarity1_3.ATS018VerifyPensionerisabletomergehisaccountwithPreservedUser">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="test10005ATS018VerifyPensionerisabletomergehisaccountwithPreservedUser"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS018VerifyPensionerisabletomergehisaccountwithPreservedUser -->
+      <class name="Clarity1_3.ATS005EmployerabletoimpersonateaPensionerwithoutloginandstatusPENUN">
+        <methods>
+          <include name="test0207ATS005EmployerabletoimpersonateaPensionerwithoutloginandstatusPENUN"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS005EmployerabletoimpersonateaPensionerwithoutloginandstatusPENUN -->
+      <class name="Clarity1_3.ATS001VerifylastpensionpaymentdetailsaredisplayedinthePensionerHomepage">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="test10009ATS001VerifylastpensionpaymentdetailsaredisplayedinthePensionerHomepage"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS001VerifylastpensionpaymentdetailsaredisplayedinthePensionerHomepage -->
+      <class name="Clarity1_3.ATS016Verifymemberwithnofundsnotbeabletoprocessswitching">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="test1502ATS016Verifymemberwithnofundsnotbeabletoprocessswitching"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS016Verifymemberwithnofundsnotbeabletoprocessswitching -->
+      <class name="Clarity1_3.SUPWRS91628ATS016Verifyuserwithempolyerrolenotabletomergewithsupportrole">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Clarity1_3.SUPWRS91628ATS016Verifyuserwithempolyerrolenotabletomergewithsupportrole -->
+      <class name="Clarity1_3.SUPWRS91665ATS002Verifythattheadminisloggedoutifhelockshisaccountduringchangememorableword">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Clarity1_3.SUPWRS91665ATS002Verifythattheadminisloggedoutifhelockshisaccountduringchangememorableword -->
+      <class name="Clarity1_3.SUPWRS91628ATS006Verifysuperadminabletochangethestatusofsupportuser">
+        <methods>
+          <include name="testSUPWRS91628ATS006Verifysuperadminabletochangethestatusofsupportuser"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Clarity1_3.SUPWRS91628ATS006Verifysuperadminabletochangethestatusofsupportuser -->
+      <class name="Clarity1_3.ATS029VerifyClaritydisplayslistoffundsandtheirexistingallocationvaluescorrectly">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="test1501ATS029VerifyClaritydisplayslistoffundsandtheirexistingallocationvaluescorrectly"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS029VerifyClaritydisplayslistoffundsandtheirexistingallocationvaluescorrectly -->
+      <class name="Clarity1_3.ATS013VerifyClaritydisplaysthecorrecttextmessageinstep3">
+        <methods>
+          <include name="test1501ATS013VerifyClaritydisplaysthecorrecttextmessageinstep3"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Clarity1_3.ATS013VerifyClaritydisplaysthecorrecttextmessageinstep3 -->
+      <class name="Clarity1_3.SUPWRS91665ATS005Verifythatthesecretaryisloggedoutifhelockshisaccountduringchangepassword">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Clarity1_3.SUPWRS91665ATS005Verifythatthesecretaryisloggedoutifhelockshisaccountduringchangepassword -->
+      <class name="Clarity1_3.SUPWRS91628ATS011Verifysupportusernotabletochangehispasswordwithinvaliddetails">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Clarity1_3.SUPWRS91628ATS011Verifysupportusernotabletochangehispasswordwithinvaliddetails -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

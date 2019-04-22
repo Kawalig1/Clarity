@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Admin_site_filter_with_pagination(failed)">
+    <classes>
+      <class name="com.stta.main.Admin_site_filter_with_pagination">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testREGPH1002AdminSiteFilterWithPaginationHtm"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.stta.main.Admin_site_filter_with_pagination -->
+    </classes>
+  </test> <!-- Admin_site_filter_with_pagination(failed) -->
+</suite> <!-- Failed suite [Suite] -->

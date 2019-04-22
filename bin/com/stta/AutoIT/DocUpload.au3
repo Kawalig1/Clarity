@@ -1,0 +1,6 @@
+ControlFocus("Choose File to Upload","","ToolbarWindow322")
+ControlSetText("Choose File to Upload","","ToolbarWindow322","\\UK.Group.Local\data\EB-JLT-UK-London_RD\PatelN6\Desktop")
+ControlFocus("Choose File to Upload","","Edit1")
+ControlSetText("Choose File to Upload","","Edit1","JLT EB Mandatory Bribery and Corruption Training Programme 2018 EB Policies and Procedures V3")
+ControlFocus("Choose File to Upload","","Button1")
+ControlClick("Choose File to Upload","","Button1")

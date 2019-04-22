@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Clarity1_2.ATS011AsaMemberwhomorethanoneaccountsmergedtoasingleloginplacearequestinboththeaccounts"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="43.475">
+  <properties />
+  
+  
+      <testcase name="test0109ATS011AsaMemberwhomorethanoneaccountsmergedtoasingleloginplacearequestinboththeaccounts" time="43.475" />
+  
+</testsuite>

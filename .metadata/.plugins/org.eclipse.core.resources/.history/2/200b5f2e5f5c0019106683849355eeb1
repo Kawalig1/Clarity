@@ -1,0 +1,35 @@
+package clarity;
+
+public class Testing {
+	
+	private static int test = 100;
+
+	public static void main(String[] args) 
+	{
+		Testing ts = new Testing();
+		//test = 100;
+		ts.setTest(101);
+		ts.getTest(test);
+		//Testing.test;
+		System.out.println(ts.getTest(test));
+
+	}
+
+	public int getTest(int test1) 
+	{
+		this.test = test1;
+		return test;
+	}
+
+	public void setTest(int test) 
+	{
+		if(test>100)
+		{
+			System.out.println("Cannot Change");
+		}
+		else
+			
+		this.test = test;
+	}
+
+}
